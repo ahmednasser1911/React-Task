@@ -156,7 +156,9 @@ const HomeScreen = () => {
                   }}
                 >
                   <img
-                    src={selected.image}
+                    src={
+                      selected.image ? selected.image : "../images/airpods.jpg"
+                    }
                     alt={selected.name}
                     style={{
                       height: "490px",
