@@ -208,7 +208,9 @@ const HomeScreen = () => {
                 </div>
               </ListGroup.Item>
               <ListGroup.Item style={{ height: "10%", textAlign: "right" }}>
-                {selected.desc}
+                {selected.desc
+                  ? selected.desc
+                  : "من تهيب صعود الجبال يبقى ابد الدهر بين الحفر "}
                 <div style={{ textAlign: "left" }}>
                   <footer className="blockquote-footer">
                     <cite title="Source Title">02/08/2020-- </cite>
